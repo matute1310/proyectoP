@@ -1,0 +1,15 @@
+#logoarg {
+    width: 175px;
+    height:60px;
+    object-fit: cover;
+    margin:0 auto;
+    padding:0 auto;
+}
+
+#logointi{
+    width:250px;
+    height: 60px;
+    object-fit: cover;
+    margin:0 ;
+    padding:0 ;
+}
