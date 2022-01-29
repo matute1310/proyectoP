@@ -11,16 +11,19 @@
 </head>
 <body>
     
-    <!--nav bar-->
+    <!--navbar-->
         
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark " id="navbar">
         <div class="container-fluid">
+            <!--logos-->
             
-            <a class="navbar-brand" href="#" >
-                <img class="img-fluid" width="175"  src="img/APLogo-20-20.png">
-                <img class="img-fluid" width="200"  src="img/LogosInti.png">
+            <a class="navbar-brand  .navbar-right px-md-0 mx-0"  href="#" >
+                <img  height="50"  src="img/APLogo-20-20.png">
+                <img  height="50" src="img/LogosInti.png">
             </a>
             
+            <!--logos-->
+            <!--navbar-toggler-->
             <button class="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
@@ -31,15 +34,16 @@
                 >
                 
                 <span class="navbar-toggler-icon"></span>
-
             </button>
-            <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+            <!--navbar-toggler-->
+            <div class="collapse navbar-collapse container-fluid mx-0 px-md-0" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Sobre mi</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Work</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <div class="nav-item">
+                    <li class="nav-item "><a class="nav-link" href="#">Blog</a></li>
+                    <!--login desplegable-->
+                    <div class="nav-item px-2">
                         <button class="btn bg-light dropdown-toggle"
                             type="button"
                             data-bs-toggle="collapse"
@@ -50,9 +54,6 @@
                             >
                             Log in          
                         </button>
-                                <!--<button class="btn bg-light dropdown-toggle" type="button" id="dropdownMenu" data-toggle="dropdown" data-bs-target="#menuDesplegable" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </button>-->
                             <div class="dropdown-menu   dropdown-content bg-secondary" id="menuDesplegable" href="#">
                                 <form class="px-4 py-3" >
                                     <div class="form-group">
@@ -69,15 +70,17 @@
                                         Recordar
                                     </label>
                                     </div>
-                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                <button type="submit" class="btn btn-primary">Log in</button>
                                 </form>
                             </div>
-                    </div>    
+                    </div>
+                    <!--login desplegable-->    
                 </ul>
             </div>
-            
+            <!--navbar-toggler-->
         </div>   
     </nav>
+    <!--navbar-->
 
 
     <!--BANNER-->
