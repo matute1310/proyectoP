@@ -1,4 +1,4 @@
-* {
+html * {
     margin: 0;
     padding: 0;
 }
@@ -43,4 +43,18 @@
 
 .navbar-brand{
     position: relative;
+}
+
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
+.sinmargen {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+.max-width960{
+    max-width: 960px;
+    justify-content: center!important;
 }
