@@ -58,3 +58,18 @@ html * {
     max-width: 960px;
     justify-content: center!important;
 }
+.positionRelative{
+    position: relative;
+    bottom: -25%;
+
+}
+
+.barra_altura{
+    height: auto;
+}
+.margintop125{
+    margin-top: 115px;
+}
+.logosEmpresa{
+    bottom: 25%;
+}
